@@ -24,10 +24,10 @@ public class JavaApplication6 {
         Suma suma=new Suma();
         arreglo arreglo=new arreglo();
         Matriz matriz=new Matriz();
-        System.out.println("1. Sumar numeros");
-        System.out.println("2. Ordenar un vector");
+        System.out.println("1. Realizar la suma de n numeros");
+        System.out.println("2. Ordenar un vector proporcionado poe el usuario");
         System.out.println("3. Crear y llenar una matriz");    
-        System.out.println("4. Calcular el sueldo de N trabajadores");
+        System.out.println("4. Calcular el sueldo de N trabajadores y mostrar cuanto gasto en nómina");
         System.out.println("Elige una opcion");
         opcion=Integer.parseInt(scanner.nextLine());
         switch(opcion){
