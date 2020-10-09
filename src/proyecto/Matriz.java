@@ -21,7 +21,8 @@ public class Matriz {
                 matriz[i][j]=scanner.nextInt();
             }//for
         }//for
-        System.out.println("La matriz que introduciste fue: ");
+        //System.out.println("La matriz que introduciste fue: ");
+        System.out.println("La matriz dada es: ");
         for(int k=0;k<f;k++){
             for(int l=0;l<c;l++){
                 System.out.print(+matriz[k][l]+" ");
