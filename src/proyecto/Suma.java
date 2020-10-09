@@ -24,7 +24,7 @@ public class Suma {
         int arreglo[]=new int[numeros];
         
         for(int i=1;i<numeros;i++){
-            System.out.println("Ingresa el numero que deseas sumar");
+            System.out.println("Ingresa el numero que deseas agregar a la sumar");
             arreglo[i]=scanner.nextInt();
             resultado=resultado+arreglo[i];
         }
