@@ -19,7 +19,7 @@ public class Suma {
         Long resultado=0l;
         int numeros;
         int numero;
-        System.out.println("Cuantos numeros quieres sumar");
+        System.out.println("Cuantos numeros deseas sumar");
         numeros=Integer.parseInt(scanner.nextLine()); 
         int arreglo[]=new int[numeros];
         
