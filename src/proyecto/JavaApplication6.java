@@ -23,7 +23,7 @@ public class JavaApplication6 {
         Scanner scanner=new Scanner(System.in); 
         Suma suma=new Suma();
         arreglo arreglo=new arreglo();
-        Matriz matriz=new Matriz();
+        Matrices matriz=new Matrices();
         System.out.println("1. Realizar la suma de n numeros");
         System.out.println("2. Ordenar un vector proporcionado poe el usuario");
         System.out.println("3. Crear y llenar una matriz");    

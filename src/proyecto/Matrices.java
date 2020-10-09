@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author EFREN.PEREZ
  */
-public class Matriz {
+public class Matrices {
     Scanner scanner=new Scanner(System.in);
     public void llenaMatriz(int f, int c){
         int matriz[][]=new int[f][c];
