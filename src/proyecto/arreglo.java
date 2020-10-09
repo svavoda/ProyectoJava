@@ -25,7 +25,7 @@ public class arreglo {
         for(int j=0; j<n;j++){
             System.out.print(" "+arreglo[j]);
         }//for
-        System.out.println("\n El arreglo ordenado sería de la siguientemanera: ");
+        System.out.println("\n El arreglo quedo ordenado sería de la siguiente manera: ");
         for( int k=1;k<arreglo.length;k++){
             for(int l=0;l<arreglo.length-k;l++){
                 if(arreglo[l]>arreglo[l+1]){
