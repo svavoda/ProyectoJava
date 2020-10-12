@@ -29,6 +29,7 @@ public class JavaApplication6 {
         System.out.println("3. Crear y llenar una matriz");    
         System.out.println("4. Calcular el sueldo de N trabajadores y mostrar cuanto gasto en nómina");
         System.out.println("Elige una opcion");
+        System.out.println("");
         opcion=Integer.parseInt(scanner.nextLine());
         switch(opcion){
             case 1: 
